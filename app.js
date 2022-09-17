@@ -3,12 +3,14 @@ const selection = document.querySelector("#selection");
 const usance = document.querySelector("#usance");
 const amount = document.getElementById("amount");
 const calcBtn = document.querySelector(".btn");
+const delBtn = document.querySelector(".btn-del");
 const results = document.querySelector(".results");
 
 let interest = 0;
 let payment = 0;
 
 calcBtn.addEventListener("click" , (e)=>{
+ 
     e.preventDefault();
     
      if(selection.value === "" || usance.value === ""  || amount.value ===""){
