@@ -7,7 +7,7 @@
 ## ✨ Demo
 
  <p align="center">
-  <img width="700" align="center" src="./img/readme.gif" alt="demo"/>   
+  <img width="700" align="center" src="./img/ezgif.com-gif-maker.gif" alt="demo"/>   
 </p>
 
 <!-- ![Alt text](https://giphy.com/peekasso)  -->
