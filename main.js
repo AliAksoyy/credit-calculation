@@ -1,6 +1,6 @@
 // Dom Selected
 
-const loan =document.querySelectorAll("option")
+const loan =document.querySelector("select")
 const maturity =document.querySelector("#Maturity")
 const price = document.querySelector("#Price")
 const calc = document.getElementById("calc")
@@ -29,9 +29,12 @@ calc.addEventListener("click", function() {
         let b = Math.pow(1 + interest.textContent, mat.textContent) -1
         let c = (pri.textContent * (a / b)).toFixed(2)
         sum.textContent = c
-        amo.textContent = c / mat.textContent;
+        amo.textContent = (c / mat.textContent).toFixed(2);
 
        
+    
+        
+        
         
     }
 })
