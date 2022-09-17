@@ -2,7 +2,7 @@
 const selection = document.querySelector("#selection");
 const usance = document.querySelector("#usance");
 const amount = document.getElementById("amount");
-const calcBtn = document.querySelector(".btn-add");
+const calcBtn = document.querySelector(".btn");
 const results = document.querySelector(".results");
 
 let interest = 0;
