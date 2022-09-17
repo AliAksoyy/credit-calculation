@@ -8,22 +8,25 @@
     <title>Credit Calculation</title>
 </head>
 <body>
-    <h1 id="title">Loan Calculator Tool</h1>
+    
     <div class="container">
+     <h1 id="title">Loan Calculator Tool</h1>
+
         <div class="row">
             <p>Credit:</p>
               <select id="loan" name="loan">
-                  <option value="volvo">Choose</option>
-                  <option value="saab">Housing Loan</option>
-                  <option value="fiat">Personal Finance Credit</option>
-                 <option value="audi">Car Loan</option>
+                  <option value="Choose">Choose</option>
+                  <option value="Housing Loan">Housing Loan</option>
+                  <option value="Credit">Personal Finance Credit</option>
+                 <option value="Car Loan">Car Loan</option>
                </select>
         </div>
+        
         <div class="row">
             <p>Maturity</p>
             <input type="text">
         </div>
-        <div class="row">
+        <div class="row" id="row1">
             <p>Price:</p>
             <input type="text">
         </div>
@@ -31,31 +34,32 @@
             <button class="btn" id="calc">Calculate</button>
             <button class="btn" id="clean">Clean</button>
         </div>
-    </div>
-    <div class="container1">
+         <div class="container1">
         <h2>Credit Information</h2>
-        <table>
+        <table class="table">
             <tr>
-              <th>Kredi Miktarı</th>
-              <th>34</th>
-              <th>kredi tip</th>
-              <th>konut kredisi</th>
+              <td>Loan Amount</td>
+              <td>34₺</td>
+              <td>Credit Type</td>
+              <td>Housing Loan</td>
             </tr>
             <tr>
-              <td>vade</td>
+              <td>Maturity</td>
               <td>43</td>
-              <td>faiz oranı</td>
+              <td>Bank Rate</td>
               <td>1.29</td>
             </tr>
             <tr>
-              <td>toplam tutar</td>
-              <td>44.13</td>
-              <td>taksit tutaı</td>
-              <td>1.04</td>
+              <td>Total Amount</td>
+              <td>44.13₺</td>
+              <td>Installment Amount</td>
+              <td>1.04₺</td>
             </tr>
             
               </div>
        </table>
+    </div>
+   
 
 
 <script src="./main.js"></script>
