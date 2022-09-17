@@ -2,8 +2,7 @@
 const selection = document.querySelector("#selection");
 const usance = document.querySelector("#usance");
 const amount = document.getElementById("amount");
-const calcBtn = document.querySelector(".btn");
-const delBtn = document.querySelector(".btn-del");
+const calcBtn = document.querySelector(".btn-add");
 const results = document.querySelector(".results");
 
 let interest = 0;
@@ -56,5 +55,7 @@ calcBtn.addEventListener("click" , (e)=>{
    }  
    
 });
+
+
 
 
