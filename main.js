@@ -20,7 +20,10 @@ calc.addEventListener("click", function() {
         container1.classList.remove("hidden")
         pri.textContent= price.value;
         mat.textContent = maturity.value
-         
+        let a = interest.textContent * Math.pow((1 + interest.textContent), mat.textContent)
+        let b = Math.pow(1 + interest.textContent, mat.textContent) -1
+        let c = pri.textContent * (a / b)
+        
         
     }
 })
